@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C4479B78-5E60-422B-AAFE-4A05A5DD5916}</ProjectGuid>
+    <ProjectGuid>{C0F5EA65-CC67-4351-B60F-645A7E5A2AD9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Loops</RootNamespace>
-    <AssemblyName>Loops</AssemblyName>
+    <RootNamespace>SaveX</RootNamespace>
+    <AssemblyName>SaveX</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -1,43 +1,48 @@
 ﻿//Jacob York
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace String_Manipulation
 {
     class Program
     {
-        static string sentence = "Programming today is a race between software engineers striving to build bigger and better idiot - proof programs, and the universe trying to build bigger and better idiots.So far, the universe is winning.";
-
         static void Main(string[] args)
         {
-            Console.WriteLine(sentence);
+            static string sentence = "Programming today is a race between software engineers striving to build bigger and better idiot - proof programs, and the universe trying to build bigger and better idiots.So far, the universe is winning.";
 
-            Console.WriteLine("What word would you like to look for?");
-            string lookupWord = Console.ReadLine();
-
-            Console.WriteLine($"What word would you like to change {lookupWord} to?");
-            string replaceWord = Console.ReadLine();
-
-            bool doesContainWord = sentence.Contains(lookupWord);
-
-            if (doesContainWord == true)
+            static void Main(string[] args)
             {
-                //the sentence has the lookupWord in it
-                string newSentence = sentence.Replace(lookupWord, replaceWord);
-                Console.WriteLine(newSentence);
-            }
-            else
-            {
-                //the sentence DOES NOT have the lookupWord in it
-                Console.WriteLine($"Sorry, I could not find your word {lookupWord}.");
+                Console.WriteLine(sentence);
 
-                for (int i = lookupWord.Length - 1; i >= 0; i--)
+                Console.WriteLine("What word would you like to look for?");
+                string lookupWord = Console.ReadLine();
+
+                Console.WriteLine($"What word would you like to change {lookupWord} to?");
+                string replaceWord = Console.ReadLine();
+
+                bool doesContainWord = sentence.Contains(lookupWord);
+
+                if (doesContainWord == true)
                 {
-                    Console.Write(lookupWord[i]);
+                    //the sentence has the lookupWord in it
+                    string newSentence = sentence.Replace(lookupWord, replaceWord);
+                    Console.WriteLine(newSentence);
                 }
+                else
+                {
+                    //the sentence DOES NOT have the lookupWord in it
+                    Console.WriteLine($"Sorry, I could not find your word {lookupWord}.");
+
+                    for (int i = lookupWord.Length - 1; i >= 0; i--)
+                    {
+                        Console.Write(lookupWord[i]);
+                    }
+                }
+
+                Console.ReadKey();
             }
-
-            Console.ReadKey();
-
-        }
     }
 }

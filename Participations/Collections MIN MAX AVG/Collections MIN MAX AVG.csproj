@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C4479B78-5E60-422B-AAFE-4A05A5DD5916}</ProjectGuid>
+    <ProjectGuid>{43F28183-0A71-414F-B442-AAD9CCE88438}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Loops</RootNamespace>
-    <AssemblyName>Loops</AssemblyName>
+    <RootNamespace>Collections_MIN_MAX_AVG</RootNamespace>
+    <AssemblyName>Collections MIN MAX AVG</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

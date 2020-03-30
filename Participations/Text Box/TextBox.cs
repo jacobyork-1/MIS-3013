@@ -28,9 +28,8 @@ namespace Text_Box
         //estabilishing the text to be outputted as a string
         public string Text { get; set; }
 
-
         //+ TextBox() with no return value
-        //defult/empty constructor for the TextBox class that sets the padding and color 
+        //defult/empty constructor for the TextBox class b/c of empty parameters
         public TextBox()
         {
 
@@ -40,10 +39,10 @@ namespace Text_Box
         //return type of void does not return any value
         public void DisplayText()
         {
-            Console.ForegroundColor = this.ForeColor;
-            Console.BackgroundColor = this.BackColor;
-            string textOutput = new string(' ', this.Padding) + this.Text + new string(' ', this.Padding);
-            Console.WriteLine(textOutput);
+            Console.ForegroundColor = ForeColor;
+            Console.BackgroundColor = BackColor;
+            //interpolates the padding before and after the text that is outputted 
+            Console.WriteLine($"{new string(' ', Padding)}{Text}{new string(' ', Padding)}");
         }
 
     }

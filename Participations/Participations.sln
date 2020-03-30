@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Developer Information", "De
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Functions - Participations", "Functions - Participations\Functions - Participations.csproj", "{3D17A9E1-B6AB-47D3-8424-B196CE2D8F80}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple Method", "Simple Method\Simple Method.csproj", "{C95B6520-D69D-4FE1-86AF-A323BAFCE077}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Text Box", "Text Box\Text Box.csproj", "{5A5EBF5C-2106-4731-AF62-7EE54D686117}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{3D17A9E1-B6AB-47D3-8424-B196CE2D8F80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D17A9E1-B6AB-47D3-8424-B196CE2D8F80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D17A9E1-B6AB-47D3-8424-B196CE2D8F80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C95B6520-D69D-4FE1-86AF-A323BAFCE077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C95B6520-D69D-4FE1-86AF-A323BAFCE077}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C95B6520-D69D-4FE1-86AF-A323BAFCE077}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C95B6520-D69D-4FE1-86AF-A323BAFCE077}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A5EBF5C-2106-4731-AF62-7EE54D686117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A5EBF5C-2106-4731-AF62-7EE54D686117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A5EBF5C-2106-4731-AF62-7EE54D686117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A5EBF5C-2106-4731-AF62-7EE54D686117}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

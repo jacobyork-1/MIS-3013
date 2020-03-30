@@ -9,23 +9,39 @@ namespace Text_Box
 {
     class TextBox
     {
+        // + means public 
+        // - means private
+
+        //+ Padding : int 
+        //the padding is listed as an integer b/c it is the space before and after the test property
         public int Padding { get; set; }
 
-        public ConsoleColor BackGround { get; set; }
+        //+ BackColor : ConsoleColor
+        //the background color of the text box
+        public ConsoleColor BackColor { get; set; }
 
-        public ConsoleColor ForeGround { get; set; }
+        //+ ForeColor : ConsoleColor
+        //the foreground color (color of the text) 
+        public ConsoleColor ForeColor { get; set; }
 
+        //+ Text : String
+        //estabilishing the text to be outputted as a string
         public string Text { get; set; }
 
+
+        //+ TextBox() with no return value
+        //defult/empty constructor for the TextBox class that sets the padding and color 
         public TextBox()
         {
 
         }
 
+        //+ DisplayText() : void
+        //return type of void does not return any value
         public void DisplayText()
         {
-            Console.ForegroundColor = this.ForeGround;
-            Console.BackgroundColor = this.BackGround;
+            Console.ForegroundColor = this.ForeColor;
+            Console.BackgroundColor = this.BackColor;
             string textOutput = new string(' ', this.Padding) + this.Text + new string(' ', this.Padding);
             Console.WriteLine(textOutput);
         }

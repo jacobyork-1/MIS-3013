@@ -11,13 +11,23 @@ namespace Text_Box
     {
         static void Main(string[] args)
         {
+            //refers back to the TextBox constructor which was empty/default
             TextBox textbox1 = new TextBox();
-            textbox1.BackGround = ConsoleColor.DarkCyan;
-            textbox1.ForeGround = ConsoleColor.Blue;
-            textbox1.Padding = 3;
-            textbox1.Text = "This is a the first text box.";
+            //refers back to the parameters created in the TextBox class
+            textbox1.Padding = 5;
+            textbox1.BackColor = ConsoleColor.White;
+            textbox1.ForeColor = ConsoleColor.Blue;
+            textbox1.Text = "This is the first text box.";
+
+            //characteristics of text box 2
+            TextBox textbox2 = new TextBox();
+            textbox2.Padding = 10;
+            textbox2.BackColor = ConsoleColor.DarkGreen;
+            textbox2.ForeColor = ConsoleColor.Yellow;
+            textbox2.Text = "This is the second text box.";
 
             textbox1.DisplayText();
+            textbox2.DisplayText();
 
             Console.ReadKey();
         }

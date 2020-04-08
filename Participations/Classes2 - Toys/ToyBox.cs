@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Jacob York
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,7 @@ namespace Classes2___Toys
         public ToyBox()
         {
             Toys = new List<Toy>();
+            return Toys;
         }
     }
 }

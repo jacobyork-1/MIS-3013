@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Jacob York
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,14 +12,14 @@ namespace Classes2___Toys
         public string Manufacturer { get; set; }
         public string Name { get; set; }
         public double Price { get; set; }
-
-        private string Aisle;
+        private string Aisle { get; set; }
 
         public Toy()
         {
             Manufacturer = "";
             Name = "";
             Price = 1;
+            Aisle = string.Empty;
 
         }
         public string GetAisle()
@@ -30,6 +31,7 @@ namespace Classes2___Toys
             Random random = new Random();
             int num = random.Next(1, 24);
 
+            return ManufacturerChar + num;
         }
 
     }

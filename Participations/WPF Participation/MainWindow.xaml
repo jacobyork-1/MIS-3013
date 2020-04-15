@@ -1,0 +1,18 @@
+﻿<Window x:Class="WPF_Participation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Participation"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FF0AC5A3">
+        <Label x:Name="lblTitle" Content="WPF Participation" HorizontalAlignment="Center" Height="42" Margin="0,37,0,0" VerticalAlignment="Top" Width="164" FontSize="20"/>
+        <TextBox x:Name="txtFavoriteColor" HorizontalAlignment="Left" Height="47" Margin="158,0,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Center" Width="161"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Height="47" Margin="158,104,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="160"/>
+        <Label x:Name="lblName" Content="Name:" HorizontalAlignment="Left" Height="27" Margin="30,114,0,0" VerticalAlignment="Top" Width="82" FontSize="16"/>
+        <Label x:Name="lblFavoriteColor" Content="Favorite Color:" HorizontalAlignment="Left" Height="42" Margin="30,0,0,0" VerticalAlignment="Center" Width="123" FontSize="16"/>
+        <Button x:Name="btnProcess" Content="Process" HorizontalAlignment="Left" Height="45" Margin="186,283,0,0" VerticalAlignment="Top" Width="104" Click="btnProcess_Click"/>
+
+    </Grid>
+</Window>

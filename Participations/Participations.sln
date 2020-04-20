@@ -27,7 +27,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes - Student1", "Class
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes2 - Toys", "Classes2 - Toys\Classes2 - Toys.csproj", "{B4C859E2-C7DF-4046-BDFA-AE8D63726973}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF Participation", "WPF Participation\WPF Participation.csproj", "{473616F1-38A1-48DD-AD61-BF448C6A619C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF Participation", "WPF Participation\WPF Participation.csproj", "{473616F1-38A1-48DD-AD61-BF448C6A619C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF - Student", "WPF - Student\WPF - Student.csproj", "{F9F284E7-4CEE-4D42-9E77-635091F56954}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF - 2", "WPF - 2\WPF - 2.csproj", "{C8EFC71C-090C-4980-BD74-20064DF3EF8B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +91,14 @@ Global
 		{473616F1-38A1-48DD-AD61-BF448C6A619C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{473616F1-38A1-48DD-AD61-BF448C6A619C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{473616F1-38A1-48DD-AD61-BF448C6A619C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9F284E7-4CEE-4D42-9E77-635091F56954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9F284E7-4CEE-4D42-9E77-635091F56954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9F284E7-4CEE-4D42-9E77-635091F56954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9F284E7-4CEE-4D42-9E77-635091F56954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8EFC71C-090C-4980-BD74-20064DF3EF8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8EFC71C-090C-4980-BD74-20064DF3EF8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8EFC71C-090C-4980-BD74-20064DF3EF8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8EFC71C-090C-4980-BD74-20064DF3EF8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

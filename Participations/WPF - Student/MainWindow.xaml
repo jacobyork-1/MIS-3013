@@ -15,9 +15,9 @@
         <TextBox x:Name="txtLastName" HorizontalAlignment="Left" Height="47" Margin="233,79,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="157"/>
         <TextBox x:Name="txtStudentID" HorizontalAlignment="Left" Height="42" Margin="233,145,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="157"/>
         <TextBox x:Name="txtFavoriteColor" HorizontalAlignment="Left" Height="42" Margin="233,206,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="157"/>
-        <Button x:Name="btnProcess" Content="Process" HorizontalAlignment="Left" Height="47" Margin="541,17,0,0" VerticalAlignment="Top" Width="103" Click="btnProcess_Click"/>
-        <Button x:Name="btnClear" Content="Clear" HorizontalAlignment="Left" Margin="541,79,0,0" VerticalAlignment="Top" Width="103" Height="47"/>
-        <ListBox x:Name="ListBox" HorizontalAlignment="Left" Height="254" Margin="480,145,0,0" VerticalAlignment="Top" Width="227"/>
+        <Button x:Name="btnProcess" Content="Process" HorizontalAlignment="Left" Height="47" Margin="541,17,0,0" VerticalAlignment="Top" Width="103" Click="btnProcess_Click" IsDefault="True"/>
+        <Button x:Name="btnClear" Content="Clear" HorizontalAlignment="Left" Margin="541,79,0,0" VerticalAlignment="Top" Width="103" Height="47" Click="btnClear_Click" IsDefault="True"/>
+        <ListBox x:Name="ListBox" HorizontalAlignment="Left" Height="254" Margin="480,145,0,0" VerticalAlignment="Top" Width="227" SelectionChanged="ListBox_SelectionChanged"/>
 
     </Grid>
 </Window>

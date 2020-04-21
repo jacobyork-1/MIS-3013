@@ -28,7 +28,32 @@ namespace WPF___Student
 
         private void btnProcess_Click(object sender, RoutedEventArgs e)
         {
+            string firstName, lastName, favoriteColor, studentID;
 
+            firstName = txtFirstName.Text;
+            lastName = txtLastName.Text;
+            favoriteColor = txtFavoriteColor.Text;
+            studentID = txtStudentID.Text;
+
+            double studentIDasNumber = Convert.ToDouble(studentID);
+
+            MessageBox.Show(ToString());
+            
+        }
+
+        private void btnClear_Click(object sender, RoutedEventArgs e)
+        {
+            txtFirstName.Clear();
+            txtLastName.Clear();
+            txtFavoriteColor.Clear();
+            txtStudentID.Clear();
+
+
+        }
+
+        private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            List<string> Students = new List<string>();
         }
     }
 }

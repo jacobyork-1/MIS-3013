@@ -34,12 +34,14 @@ namespace WPF___Student
             lastName = txtLastName.Text;
             favoriteColor = txtFavoriteColor.Text;
             studentID = txtStudentID.Text;
-
             int studentIDasNumber = Convert.ToInt32(studentID);
 
-            MessageBox.Show(ToString());
+            lstListBox.Items.Add(firstName);
+            lstListBox.Items.Add(lastName);
+            lstListBox.Items.Add(favoriteColor);
+            lstListBox.Items.Add(studentIDasNumber);
 
-            lstListBox.Items.Add(ToString());
+            MessageBox.Show($"{firstName} {lastName}s studentID number is {studentIDasNumber} and has a favorite color of {favoriteColor}.");
             
         }
 

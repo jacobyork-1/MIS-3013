@@ -59,7 +59,6 @@ namespace WPF___2
             string[] numberArray = numberInput.Split(',');
             if (rbODD.IsChecked == true)
             {
-                foreach (var number in numberInputAsNumber)
                 {
                     if (numberInputAsNumber % 2 == 0)
                     {

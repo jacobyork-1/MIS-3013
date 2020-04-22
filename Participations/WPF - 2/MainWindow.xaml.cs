@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Jacob York
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,31 @@ namespace WPF___2
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void btnProcess_Click(object sender, RoutedEventArgs e)
+        {
+            string numberInput;
+            numberInput = txtNumber.Text;
+            int numberInputAsNumber = Convert.ToInt32(numberInput);
+            string[] numberArray = numberInput.Split(',');
+            foreach (var number in numberArray)
+            {
+                if (numberInputAsNumber % 2 == 0)
+                {
+                    lstNumber.Items.Add(numberInputAsNumber);
+                }
+                else
+                {
+                    lstNumber.Items.Add(numberInputAsNumber);
+                }
+            }
+
+        }
+        private void btnClear_Click(object sender, RoutedEventArgs e)
+        {
+            txtNumber.Clear();
+            lstNumber.Items.Clear();
         }
     }
 }

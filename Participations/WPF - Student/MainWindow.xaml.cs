@@ -35,9 +35,11 @@ namespace WPF___Student
             favoriteColor = txtFavoriteColor.Text;
             studentID = txtStudentID.Text;
 
-            double studentIDasNumber = Convert.ToDouble(studentID);
+            int studentIDasNumber = Convert.ToInt32(studentID);
 
             MessageBox.Show(ToString());
+
+            lstListBox.Items.Add(ToString());
             
         }
 
@@ -47,13 +49,10 @@ namespace WPF___Student
             txtLastName.Clear();
             txtFavoriteColor.Clear();
             txtStudentID.Clear();
+            lstListBox.Items.Clear();
 
 
         }
 
-        private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            List<string> Students = new List<string>();
-        }
     }
 }

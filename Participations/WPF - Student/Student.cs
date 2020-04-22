@@ -20,9 +20,9 @@ namespace WPF___Student
             LastName = "";
             FavoriteColor = "";
         }
-        public string ToString()
+        public override string ToString()
         {
-            Console.WriteLine(FirstName + LastName + " (" + StudentID + ") " + "has a favoite color of " + FavoriteColor);
+            return FirstName + LastName + " (" + StudentID + ") " + "has a favoite color of " + FavoriteColor;
         }
     }
 }

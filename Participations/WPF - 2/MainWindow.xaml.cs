@@ -50,5 +50,27 @@ namespace WPF___2
             txtNumber.Clear();
             lstNumber.Items.Clear();
         }
+
+        private void rbODD_Checked(object sender, RoutedEventArgs e)
+        {
+            string numberInput;
+            numberInput = txtNumber.Text;
+            int numberInputAsNumber = Convert.ToInt32(numberInput);
+            string[] numberArray = numberInput.Split(',');
+            if (rbODD.IsChecked == true)
+            {
+                foreach (var number in numberInputAsNumber)
+                {
+                    if (numberInputAsNumber % 2 == 0)
+                    {
+                        lstNumber.Items.Add(numberInputAsNumber);
+                    }
+                }
+            }
+            else
+            {
+                lstNumber.Items.Add(numberInputAsNumber);
+            }
+        }
     }
 }
